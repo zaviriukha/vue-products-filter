@@ -1,0 +1,19 @@
+
+@font-face {
+    font-family: "Brown-Pro";
+    src: url("brown/lineto-brown-pro-regular.eot");
+    src: url("brown/lineto-brown-pro-regular.eot?#iefix") format("embedded-opentype"),
+    url("brown/lineto-brown-pro-regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Athelas";
+    src: url("athelas/547a938d-3d69-4437-bd70-d1c667bd5fe2.woff") format("woff"),
+    url("athelas/9d98c43c-eb88-46b7-ab0b-143e29ce5828.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
