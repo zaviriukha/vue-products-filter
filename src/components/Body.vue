@@ -2,7 +2,7 @@
   <div class="some-page-wrapper">
     <div class="row-page">
       <div class="column sidebar pt-4">
-        <div class="sidebar-title mb-3">
+        <div class="sidebar-title mb-3 d-flex justify-content-start">
           Filter
         </div>
         <vsa-list :auto-collapse="false">
@@ -115,8 +115,8 @@
       <div class="double-column pt-4">
         <AppTitle title="Ole" sub-title="Lorem ipsum dolor sit amet event landing template" up-title="Warengruppe"/>
 
-        <div class="select-block mb-3">
-          <b>Order by</b>
+        <div class="select-block mb-3 d-flex justify-content-start">
+          <b class="pr-3">Order by </b>
           <select v-model="sortType" v-on:change="sortItem()">
             <option value="" disabled>Select order</option>
             <option value="price">Price</option>
@@ -319,17 +319,14 @@ export default {
   width: 100%;
   justify-content: space-around;
 }
-
 .double-column {
   display: flex;
   flex-direction: column;
   width: 70%;
 }
-
 .vsa-list {
   border: none !important;
 }
-
 .vsa-item {
   .vsa-item__trigger__icon{
     font-size: 12px;
@@ -366,25 +363,22 @@ export default {
   font-weight: 500 !important;
   font-size: 0.85rem !important;
 }
-
-
 .sidebar{
   font-family: "Athelas";
+
   .sidebar-title {
     font-size: 18px;
+    font-weight: 600;
   }
 }
-
 .filters-checkboxes {
   display: flex;
   flex-direction: column;
 }
-
 .select-block{
   font-size: 14px;
   font-family: "Brown-Pro";
 }
-
 .fas{
   font-weight: 600;
 }

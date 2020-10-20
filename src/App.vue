@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <Header/>
-
+    <Body/>
   </div>
 </template>
 
@@ -29,7 +29,8 @@
 </style>
 <script>
 import Header from "@/components/Header";
+import Body from "@/components/Body";
 export default {
-  components: {Header}
+  components: {Body, Header}
 }
 </script>

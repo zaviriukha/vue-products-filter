@@ -54,4 +54,5 @@ export default {
     line-height: 10px;
     font-family: "Brown-Pro";
   }
+}
 </style>

@@ -23,6 +23,25 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
+.title-block {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
 
+.up-title {
+  font-size: 20px;
+  font-family: "Athelas";
+}
+
+.products-title {
+  font-size: 35px;
+  font-family: "Brown-Pro";
+}
+
+.products-subtitle {
+  font-size: 18px;
+  font-family: "Brown-Pro";
+}
+}
 </style>
