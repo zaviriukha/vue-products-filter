@@ -1,4 +1,5 @@
 # vue-products-filter
+Product filter. Made with a Vue.js and JS.
 
 ## Project setup
 ```
